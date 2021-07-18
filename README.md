@@ -2,4 +2,4 @@
 
 ## Esse projeto foi muito interessante de desenvolver, principalmente de ver a execução, pois é possivel alterar e excluir as tarefas e todas as alterações como criação, alteração e exclusão é diretamente atualizada no BD
 
-![Idex do site](https://github.com/hiagoleresdev/To-do-list-Django/blob/main/telaTodolist.png)
+![Idex do site](https://github.com/hiagoleresdev/To-do-list-Django/blob/main/telaTodo.png)
