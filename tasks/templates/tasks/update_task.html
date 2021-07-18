@@ -1,0 +1,36 @@
+<style>
+
+	body{
+		background-color: #612F74;
+        color: white;
+        font-size: 40px;
+	}
+
+    h3{
+        font-size: 40px;
+        color: white;
+    }
+    a{
+        color: red;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    p{
+        font-size: 30px;
+        color: white;
+    }
+
+
+
+</style>
+
+<center>
+<h3>Alterar tarefa</h3>
+
+<form method="POST">
+    {% csrf_token %}
+
+    {{ form }}
+    <input type="submit" name="Update Task">
+</form>
+</center>

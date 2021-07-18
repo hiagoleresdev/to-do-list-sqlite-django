@@ -1,0 +1,33 @@
+<style>
+
+	body{
+		background-color: #612F74;
+	}
+
+    a{
+        color: red;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    p{
+        font-size: 30px;
+        color: white;
+    }
+
+
+
+</style>
+
+<center>
+<p>Tem certeza que deseja deletar a tarefa "{{item}}" ?</p>
+
+<a href="{% url 'list' %}"> Cancelar </a>
+
+<form method="POST" action="">
+    {% csrf_token %}
+
+    {{ form }}
+    <input class="btn btn-sm btn-info" type="submit" name="Confirm">
+</form>
+
+</center>
